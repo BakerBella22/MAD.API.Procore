@@ -1,5 +1,4 @@
-﻿
-using MAD.API.Procore.Endpoints.PunchItems.Models;
+﻿using MAD.API.Procore.Endpoints.PunchItems.Models;
 using MAD.API.Procore.Endpoints.RFIs.Models;
 using Newtonsoft.Json;
 using System;
