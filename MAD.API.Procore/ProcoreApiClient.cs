@@ -70,7 +70,7 @@ namespace MAD.API.Procore
                 throw new NotImplementedException();
             }
 
-            return await ReadResponse<TResponse>(request, httpResponse);
+         return await ReadResponse<TResponse>(request, httpResponse);
         }
 
         private async Task<ProcoreResponse<TResponse>> ReadResponse<TResponse>(ProcoreRequest<TResponse> request, HttpResponseMessage httpResponse)
