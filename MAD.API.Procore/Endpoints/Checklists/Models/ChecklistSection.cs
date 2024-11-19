@@ -29,7 +29,7 @@ namespace MAD.API.Procore.Endpoints.Checklists.Models {
 		/// <summary>
 		/// Checklist Items
 		/// </summary>
-		[JsonProperty("items")]	public  List<ChecklistSectionItem> Items { get ; set; }
+		[JsonProperty("items")]	public  List<ChecklistItem> Items { get ; set; }
 
 		/// <summary>
 		/// Template Section ID

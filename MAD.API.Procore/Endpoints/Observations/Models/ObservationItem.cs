@@ -92,5 +92,10 @@ namespace MAD.API.Procore.Endpoints.Observations.Models {
 		[JsonProperty("type")]	public  ObservationType Type { get ; set; }
 
 		[JsonProperty("custom_fields")]	public  JObject CustomFields { get ; set; }
-	}
+
+        /// <summary>
+        /// Attachments associated with the observation item
+        /// </summary>
+        [JsonProperty("attachments")] public List<Attachment> Attachments { get; set; }
+    }
 }
