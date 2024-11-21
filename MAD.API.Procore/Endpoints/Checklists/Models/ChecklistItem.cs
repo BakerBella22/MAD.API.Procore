@@ -35,10 +35,10 @@ namespace MAD.API.Procore.Endpoints.Checklists.Models
         public string RespondedWith { get; set; }
 
         [JsonProperty("response")]
-        public Response Response { get; set; }
+        public string Response { get; set; }
 
         [JsonProperty("response_set")]
-        public ResponseSet ResponseSet { get; set; }
+        public string ResponseSet { get; set; }
 
         [JsonProperty("response_type_id")]
         public long? ResponseTypeId { get; set; }
